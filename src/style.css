@@ -1,0 +1,84 @@
+body {
+  height: 100vh;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #b2c2bf;
+}
+
+
+ul, li, .wettersearch {
+  list-style-type: none;
+  padding: 5px;
+
+}
+
+h1 {
+  font-size: 40px;
+  color: #3b3a30;
+}
+
+li {
+  font-weight: bold;
+}
+
+li > span {
+  font-weight: normal;
+}
+
+
+
+.report {
+  height: 300px;
+  width: 300px;
+  border-radius: 5px;
+  color: #eaece5;
+
+  background-color: #3b3a30;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul, .wettersearch {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+ul {
+  width:80%;
+}
+
+.wettersearch {
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+}
+
+.wettersearch > #search {
+  width: 80%;
+  padding: 8px;
+  font-weight: bold;
+  border-radius: 5px;
+  border-style: none;
+  color: #3b3a30;
+}
+
+.wettersearch > #search:focus {
+  outline-style: none;
+}
+
+.wettersearch > button {
+  width: 50%;
+  padding: 8px;
+  background-color: #eaece5;
+  color: #3b3a30;
+  border: none;
+  border-radius: 5px;
+}
